@@ -13,6 +13,11 @@ nav {
     color: #f9faf8;
 }
 
+nav h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .menu {
     list-style-type: none;
     display: flex;
@@ -20,5 +25,46 @@ nav {
 }
 
 .menu li {
-    padding: 1rem;
+    padding: 16px;
+    font-size: 18px;
 }
+
+.one {   
+    background-color: #1f2937;
+    padding: 48px 96px;
+}
+
+.one .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.one-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.one-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 90%;
+}
+
+.one-left button, input[type="submit"], input[type="reset"] {
+	background: none;
+	background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bolder;
+	border: none;
+    border-radius: 10px;
+	padding: 9px 24px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+

@@ -68,3 +68,58 @@ nav h3 {
 	outline: inherit;
 }
 
+.two {
+    margin: 64px 0;
+}
+
+.two h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.squares {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 24px 0;
+}
+
+.square-one, .square-two, .square-three, .square-four {
+    width: 180px;
+}
+
+.squares img {
+    border-radius: 10px;
+}
+
+.squares p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.three {
+    background-color: #e5e7eb;
+    padding: 96px 0 128px 0;
+}
+
+.three .content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.three h1 {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    margin: 0;
+}
+
+.three h5 {
+    padding-right: 24px;
+    font-size: 18px;
+}
+

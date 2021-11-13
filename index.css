@@ -66,10 +66,17 @@ nav h3 {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+    transition: 0.3s;
+}
+
+.one-left :hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    transition: 0.3s;
 }
 
 .two {
-    margin: 64px 0;
+    margin: 96px 0;
 }
 
 .two h2 {
@@ -113,7 +120,7 @@ nav h3 {
 
 .three h1 {
     font-size: 36px;
-    font-weight: 100;
+    font-weight: lighter;
     color: #1f2937;
     margin: 0;
 }
@@ -121,5 +128,63 @@ nav h3 {
 .three h5 {
     padding-right: 24px;
     font-size: 18px;
+    float: right;
 }
 
+.four {
+    margin: 128px 256px;
+}
+
+.four .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 48px 128px;
+}
+
+.four-left h4 {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0 0 12px 0;
+}
+
+.four-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.four-right button, input[type="submit"], input[type="reset"] {
+	background: none;
+	background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bolder;
+	border: white 2px solid;
+    border-radius: 10px;
+	padding: 9px 32px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    transition: 0.3s;
+}
+
+.four-right :hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    transition: 0.3s;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 16px 0;
+}
+
+footer p {
+    color: #f9faf8;
+    font-size: 18px;
+}
